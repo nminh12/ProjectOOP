@@ -1,0 +1,8 @@
+PrintedBook,Conan,AOYAMA Gosho,Mystery,978-123-456A,true,350
+PrintedBook,DragonBall,Akira Toriyama,Action,978-654-321B,true,420
+PrintedBook,MatBiec,Nguyen Nhat Anh,Romance,978-888-777C,true,198
+PrintedBook,CauLaThienTai,Zeros,Manga,388-903-111S,true,105
+EBook,RapViet,TranThanh,Horror,373-888-999T,true,Word
+EBook,TiengGoiNoiHoangDa,Jack London,Adventure,978-999-555D,true,PDF
+EBook,LapTrinhJava,Nguyen Van A,Education,978-111-222E,true,ePub
+EBook,GiaiTich1,LeHongPhong,Textbook,978-333-444F,true,Word
