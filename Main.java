@@ -21,13 +21,18 @@ public class Main {
                         found = true;
                         User user;
                         switch (parts[2]) {
-                            case "Admin" -> user = new Admin(username, password);
-                            case "Librarian" -> user = new Librarian(username, password);
-                            case "Reader" -> user = new Reader(username, password);
-                            default -> {
+                            case "Admin":
+                                user = new Admin(username, password);
+                                break;
+                            case "Librarian":
+                                user = new Librarian(username, password);
+                                break;
+                            case "Reader":
+                                user = new Reader(username, password);  
+                                break;
+                            default:
                                 System.out.println("Unknown role.");
                                 return;
-                            }
                         }
                         user.showMenu(sc);
                         return; 
